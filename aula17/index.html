@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        header {
+
+            width: 500px;
+            height: 120px;
+            background-color: aqua;
+            padding: 20px;
+            margin: auto;
+        }
+
+        span {
+
+           color: blue;
+           display: block;
+           margin-bottom: 10px;
+        }
+
+        li {
+
+            visibility: hidden;   
+            list-style: none;
+            padding-bottom: 5px;
+        }
+
+        a {
+
+            text-decoration: none;
+        }
+
+        a:visited {
+
+            color: green;
+        }
+
+         ul:hover li{
+
+        visibility: visible;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        
+        <ul id="lista" > <span id="span" onclick="menu()" >Menu Geral</span>
+
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+            <li><a href="#">Menu 4</a></li>
+        </ul>
+    </header>
+        <script>
+
+            function menu() {
+
+                let mennu = document.getElementById('span')
+
+
+                if (mennu.che) {
+
+
+                }
+            }
+        </script>
+</body>
+</html>
